@@ -11,6 +11,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <script src="js/todoApp.js"></script>
     <title>To-Do List Application</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+      }
+      body {
+        display: flex;
+        max-width: 780px;
+        flex-direction: column;
+        margin: auto;
+        gap: 1rem;
+        padding: 1rem;
+        justify-content: center;
+      }
+      body button {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <h1>To-Do List Application</h1>
+    <p>Open the browser console to interact with the application.</p>
+    <p>Press <strong>F12</strong> or right-click and select <strong>'Inspect'</strong> to open the console.</p>
+
+    <button onclick="startApp()">Start To-Do App</button>
+  </body>
 </html>

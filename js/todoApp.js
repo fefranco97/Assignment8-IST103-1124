@@ -65,4 +65,7 @@ function interactiveMenu() {
   } while (option !== '5')
 }
 
-interactiveMenu()
+function startApp() {
+  alert('Welcome to To-Do App, dont forget to open the console! Press F12')
+  interactiveMenu()
+}
